@@ -1,3 +1,5 @@
 #!/usr/bin/python3
-for i in range(ord('a'), ord('z'),1):
-	print(chr(i))
+string = ""
+for i in range(ord('a'), (ord('z') + 1),1):
+	string+=str(chr(i))
+print(string)
